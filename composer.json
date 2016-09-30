@@ -1,0 +1,30 @@
+{
+	"name" : "ilina/test-library",
+	"description" : "Simple test composer library with Twig & Monolog.",
+	"license" : "Test",
+	"type" : "library",
+	"keywords" : [
+		"ilina test",
+		"ilina"
+	],
+	"authors" : [{
+			"name" : "Ilina Stefanova"
+		}],
+			"autoload" : {
+		"psr-4" : {
+			"App\\" : "app/src"
+		}
+	},
+	"repositories" : [
+	{
+	"type" : "vcs",
+	"url" : "https://github.com/elenag77/phpproject" 
+	}
+	],
+    "require": {
+        "monolog/monolog": "1.0.*",
+        "slim/flash": "0.1.0.*",
+        "zend/gdata": "1.11.11.*",
+        "zendframework/zend-json": "3.0.0.*"
+    }
+}
