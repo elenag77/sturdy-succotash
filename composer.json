@@ -3,6 +3,7 @@
 	"description" : "Simple test composer library with Twig & Monolog.",
 	"license" : "Test",
 	"type" : "library",
+	"version" : "1.0.0",
 	"keywords" : [
 		"ilina test",
 		"ilina"
